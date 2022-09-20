@@ -1,7 +1,3 @@
-
-
-
-
 package mp3player;
 import java.awt.Color;
 import java.io.File;
@@ -12,7 +8,7 @@ import javax.swing.ImageIcon;
 import javax.swing.UIManager;
 /**
  *
- * @author ali
+ * @author randy
  */
 public class playmp3 extends javax.swing.JFrame {
     Playlist pl = new Playlist();
@@ -287,7 +283,7 @@ void previous(){
                 plyActionPerformed(evt);
             }
         });
-        getContentPane().add(ply, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, 70, -1));
+        getContentPane().add(ply, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 180, 70, -1));
 
         jButton5.setText(">|");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -295,7 +291,7 @@ void previous(){
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 50, -1));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 50, -1));
 
         stop.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         stop.setText("[]");
@@ -304,7 +300,7 @@ void previous(){
                 stopActionPerformed(evt);
             }
         });
-        getContentPane().add(stop, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 180, -1, -1));
+        getContentPane().add(stop, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, -1, -1));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/stop-icon_1.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -315,12 +311,12 @@ void previous(){
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, 70, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Music-Library-icon.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, 60, 80));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, 60, 80));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/1e64d86c-c498-442c-95ba-6652785a04d9.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 160, 110));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logo.png"))); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 150, 110));
 
-        setSize(new java.awt.Dimension(303, 356));
+        setSize(new java.awt.Dimension(306, 372));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
